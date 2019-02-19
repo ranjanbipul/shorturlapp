@@ -1,7 +1,7 @@
 import {SET_TRANSFER_STATE} from "../store/actionTypes";
 
 class Api {
-  static host = "//localhost:5000/api";
+  static host = "//su.webjack.in:8080/api";
   static store = null;
   static url_patt = /^https?:\/\//i;
   static count = 0;

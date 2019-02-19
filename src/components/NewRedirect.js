@@ -61,7 +61,7 @@ class NewRedirect extends React.Component{
               className={classes.submit}
               onClick={this.newRedirect}
               disabled={this.state.process}
-              style={{flex:1}}
+              style={{flex:1,maxHeight:50}}
             >
               Shorten URL
             </Button>

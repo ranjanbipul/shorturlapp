@@ -8,7 +8,7 @@ import SignUp from './SignUp';
 const styles =  (theme) => ({
   root: {
     backgroundColor: theme.palette.background.paper,
-    width: 500,
+    maxWidth: 400,
   },
   paper: {
     display: 'flex',

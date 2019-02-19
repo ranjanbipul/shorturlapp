@@ -17,7 +17,7 @@ class App extends Component {
         <React.Fragment>
           <CssBaseline />
           <Header />
-          <div className="Main">
+          <div id="main">
             {!this.props.user && <Account />}
             {this.props.user && <Dashboard />}
           </div>

@@ -10,11 +10,11 @@ import {fetchRedirectList} from '../store/actions'
 
 const styles = {
   root: {
-    // width: '100%',
-    // overflowX: 'auto',
+    width: '100%',
+    overflowX: 'auto',
   },
   table: {
-    // minWidth: 700,
+    minWidth: 700,
   },
 };
 
@@ -58,8 +58,8 @@ class Redirects extends React.Component{
                   {n.originalUrl}
                 </TableCell>
                 <TableCell>
-                  <a href={"http://localhost:5000/"+n.shortId} target="_blank" rel="noopener noreferrer">
-                  http://localhost:5000/{n.shortId}</a>
+                  <a href={"https://su.webjack.in:8080/"+n.shortId} target="_blank" rel="noopener noreferrer">
+                  https://su.webjack.in:8080/{n.shortId}</a>
                 </TableCell>
                 <TableCell align="right">{n.hits}</TableCell>
                 <TableCell align="right">{n.createdAt}</TableCell>
